@@ -24,13 +24,18 @@
                 <label for="">Email</label>
                 <input type="text" name="email" onblur="checarEmail()"> <br>
             </div>
-                <div class="col-md-3">
-                    <label for="Nome" class="form-label">CPF</label>
-                    <input type="cpf" class="form-control" id="cpf">
-                    </div>
-                    <div class="col-md-3">
-                        <label for="Nome" class="form-label">Data de nascimento</label>
-                        <input type="nome" class="form-control" id="nome">
+            <form action="" id="cpfform">
+                <label for="">CPF:</label>
+                <input for="text" id="cpf" name="cpf" maxlength="14"> <br>
+                <button type="submit">VALIDAR</button> <br>
+                <p id="message"></p>
+            </form>
             </div>
 
                         <input type="submit" value="ENVIAR">
+
+
+                        
+    <script src='pessoais.js'></script>
+</body>
+</html>
